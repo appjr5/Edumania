@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f7f0;
+        }
+        header {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #092a40;
+            color: #18b7be;
+            margin-top: 20px;
+            padding-top:20px;
+        }
+        .footer{
+            color: #18b7be;
+        }
+        footer section {
+            margin-bottom: 20px;
+        }
+        .social-links i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        .form-control{
+
+        }
+        h2{
+            color: #178ca4;
+        }
+        h3{
+            color: #092a40;
+        }
+        label{
+            color: #092a40;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="file:///C:/Users/hp/OneDrive/Documents/GitHub/edumania/img/logo/EDUMANIA.svg" width="95" height="95" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Courses
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="profileDropdown">
+                            <a class="dropdown-item" href="primary.html">Primary</a>
+                            <a class="dropdown-item" href="secondary.html">Secondary</a>
+                            <a class="dropdown-item" href="highSchool.html">High School</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>About Us</h1>
+        <p>Edumania provides students with quality materials to study for their whole years of study. We offer both primary level, secondary level, and high school level courses for both science, arts, and business combinations. We also provide free guide for students through the use of our AI chatbot as well as teachers who volunteered for the development of education in Tanzania.</p>
+        <br><br><br>
+        <h2>Are you a teacher interested to volunteer?</h2>
+        <form action="" method="post" autocomplete="on">
+            <h3>Join Our Cause</h3>
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <input type="text" class="form-control" name="Name" id="Name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="Age">Age:</label>
+                <input type="number" class="form-control" name="Age" id="Age" placeholder="Age" required>
+            </div>
+            <div class="form-group">
+                <label for="phone_number">Phone Number:</label>
+                <input type="tel" class="form-control" name="phone_number" id="phone_number" placeholder="+255 xxx xxx xxx" required>
+            </div>
+            <div class="form-group">
+                <label for="experience">Years of Experience</label>
+                <input type="number" class="form-control" name="experience" id="experience" min="5" placeholder=">5yrs" required>
+            </div>
+            <div class="form-group">
+                <label for="subjects">Subject You Teach</label><br>
+                <select name="subjects" id="subjects" class="form-control" required>
+                    <option value="Primary Level">Select Subject...</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Civics">Civics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Geography">Geography</option>
+                    <option value="Literature">Literature</option>
+                    <option value="Basic Mathematics">Basic Mathematics</option>
+                    <option value="Basic Applied Mathematics">Basic Applied Mathematics</option>
+                    <option value="Pure Mathematics">Pure Mathematics</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Computer Science">Computer Science</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="level">Level of Experience</label><br>
+                <select name="level" id="level" class="form-control" required>
+                    <option value="Primary Level">Select Level of Experience</option>
+                    <option value="Primary Level">Primary Level</option>
+                    <option value="Ordinary Level">Ordinary Level</option>
+                    <option value="Advanced Level">Advanced Level</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <section class="course-links">
+                        <h3 class="footer">Courses</h3>
+                        <a href="#">Algebra</a><br>
+                        <a href="#">Circumnavigation of the Earth</a><br>
+                        <a href="#">Tenses</a><br>
+                        <a href="#">Mofimu</a><br>
+                        <a href="#">Blood Circulatory System</a><br>
+                        <a href="#">Colonialism</a>
+                    </section>
+                </div>
+                <div class="col-md-3">
+                    <section class="seo-links">
+                        <h3 class="footer">Quick Links</h3>
+                        <a href="#">TAMISEMI</a><br>
+                        <a href="#">NECTA</a><br>
+                        <a href="#">NACTE</a><br>
+                        <a href="#">TCU</a>
+                    </section>
+                </div>
+                <div class="col-md-3">
+                    <section class="more">
+                        <h3 class="footer">More</h3>
+                        <a href="#">Tutorials</a><br>
+                        <a href="#">Notes</a><br>
+                        <a href="#">Dashboard</a><br>
+                        <a href="#">References</a><br>
+                        <a href="#">Index</a><br>
+                        <a href="#">Recommendations</a>
+                    </section>
+                </div>
+                <div class="col-md-3">
+                    <section class="socials">
+                        <h3 class="footer">Follow Us</h3>
+                        <a class="navbar-brand" href="#">
+                            <img src="file:///C:/Users/hp/OneDrive/Documents/GitHub/edumania/img/logo/EDUMANIA.svg" width="300" height="200" class="d-inline-block align-top" alt="Logo">
+                        </a>
+                        <div class="social-links">
+                            <i class="links fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="link fa fa-twitter" aria-hidden="true"></i>
+                            <i class="links fa fa-instagram" aria-hidden="true"></i>
+                            <i class="links fa fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Pop
