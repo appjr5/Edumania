@@ -1,0 +1,5 @@
+Edumania color pallette
+off-white f9f7f0
+baby blue 18b7be
+teal blue 178ca4
+dark blue 092a40

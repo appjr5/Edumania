@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="description" content="Edumania provides students with quality materials to study for
+        their whole years of study. We offer both primary level, secondary 
+        level and high school level courses for both science, arts and business 
+        combinations. <br> We also provide ">
+        <meta name="author" content="App Jr.">
+        <meta name="keywords" content="math, advanced math, hisabati, A level, O level, secondary school, history, geography, civics, general studies, biology, physics, chemistry, question">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="nofollow">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       <!-- <link rel="stylesheet" href="css/main.css"> -->
+        <script src="{{ url_for('static', filename='js/edumania.js') }}"></script>
+        <style>
+            body{
+                inherits: parent;
+            }
+            nav{
+                inherits: parent;
+            }
+            footer{
+                inherits: parent;
+            }
+        </style>
+
+        <title>Edumania</title>
+    </head>
+    <body>
+        <h1>A world of academics, a universe of knowledge</h1>
+    
+        {% for course in courses %}
+        <h2>{{ course.title }}</h2>
+        <p>{{ course.description }}</p>
+        <p>Price: {{ course.price }}</p>
+        <p>Duration: {{ course.duration }}</p>
+        <p>Category: {{ course.category }}</p>
+        <a href="#">Learn more</a>
+        <hr>
+        {% endfor %}
+    </body>
+    <footer>
+        {% include 'footer.html' %}
+    </footer>
+</html>
