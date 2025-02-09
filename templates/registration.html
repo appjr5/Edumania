@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="description" content="Edumania provides students with quality materials to study for
+        their whole years of study. We offer both primary level, secondary 
+        level and high school level courses for both science, arts and business 
+        combinations. <br> We also provide ">
+        <meta name="author" content="App Jr.">
+        <meta name="keywords" content="math, advanced math, hisabati, A level, O level, secondary school, history, geography, civics, general studies, biology, physics, chemistry, question">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta name="robots" content="nofollow">
+            
+        <link rel="stylesheet" href=".../css/main.css">
+
+        <title>Edumania SignUp Form</title>
+    </head>
+    <body>
+        <h1>We Got You!</h1>
+            <h3>Sign In to get contents available whenever you need them.</h3>
+            <form action="/registration" method="POST">
+                <input class="adjust"  type="text" name="Name" placeholder="Name"> <br> <br>
+                <input class="adjust" type="text" name="Gender" placeholder="Gender"> <br> <br>
+                <input class="adjust" type="number" name="Phone Number" placeholder="Phone Number"> <br> <br>
+                <input class="adjust" type="text" name="Password" placeholder="Password"> <br> <br>
+                <label>Role:</label>
+                <input class="adjust" type="radio" name="Role" id="Student">
+                <label for="Student">Student</label>
+                <input class="adjust" type="radio" name="Role" id="Teacher">
+                <label for="Teacher">Teacher</label> <br>
+                <label for="LoEducation">Level of Education:</label> <br>
+                <input class="adjust" type="checkbox" name="" id="">
+                <label for="">Primary Level</label>
+                <input class="adjust" type="checkbox" name="" id="">
+                <label for="">Ordinary Level</label>
+                <input class="adjust" type="checkbox" name="" id="">
+                <label for="">Advanced Level</label> <br> <br>
+                <input class="adjust" type="submit" value="Sign Up">
+            </form>
+    <br>
+        
+    </body>
+    <footer>
+        {% include 'footer.html' %}
+    </footer>
+</html>

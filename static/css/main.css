@@ -1,0 +1,165 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f7f0;
+    color: black;               
+    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.navbar {
+    background-color: #072a40;
+    padding: 1rem;
+    }
+.nav-list {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        }
+.nav-list li {
+        position: relative;
+        }
+
+                .nav-list a {
+                    color: #178ca4;
+                    text-decoration: none;
+                    padding: 0.75rem 1rem;
+                    display: block;
+                }
+
+                .nav-list a:hover {
+                    color: #f9f7f0;
+                    background-color: transparent;
+                }
+                .multi-column {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust number of columns */
+                    gap: 10px;
+                    padding: 1rem;
+                    background-color: #072a40;
+                    min-width: 1000px;  /* Adjust width to accommodate many columns */
+                    max-width: 1200px;
+                }
+                .dropdown-menu {
+                    display: none;
+                    position: absolute;
+                    left: 0;
+                    top: 100%;
+                    background-color: #072a40;
+                    list-style: none;
+                    padding: 0;
+                    min-width: 200px;
+                    z-index: 1;
+                }
+                .dropdown-menu li a {
+                    padding: 0.75rem 1rem;
+                }
+                .dropdown:hover .dropdown-menu {
+                    display: block;
+                }
+                @media (max-width: 768px) {
+                    .nav-list {
+                        width: 100%;
+                        flex-direction: column;
+                    }
+                    .dropdown-menu {
+                        left: 0; 
+                        top: 0;
+                        position: relative;
+                    }
+                }
+                .card{
+                    display: inline-block;
+
+                }
+                .scrollable{
+                    overflow-x: auto;
+                    white-space: nowrap;
+                }
+                .card:hover {
+                    background-color: #178ca4;
+            
+                }
+                .img{
+                    width: 250px; 
+                    border-radius: 25px;
+                }
+                h1{
+                    color: #072a40;
+                    justify-content: center;
+                }
+                .footer {
+                    margin: 0; /* Remove left margin */
+                    letter-spacing: 2px;
+                    font-size: x-large;
+                }
+
+                .footer1 {
+                    margin: 0; /* Remove left margin */
+                    letter-spacing: 2px;
+                    font-size: x-large;
+                }
+
+                footer {
+                    background-color: #072a40;
+                    color: #f9f7f0;
+                    padding: 20px; /* Add padding if needed */
+                    margin: 0; /* Remove margin */
+                    /* Remove fixed height if content varies */
+                }
+
+                .links {
+                    text-decoration: none;
+                    color: #178ca4;
+                    line-height: 1.5;
+                }
+
+                .links:hover {
+                    color: #f9f7f0;
+                }
+
+                .course-links1,
+                .course-links2,
+                .course-links3 {
+                    display: inline-block;
+                    margin-left: 40px; /* Adjust margin for spacing */
+                }
+
+                .seo-links {
+                    margin-left: 750px;
+                    margin-top:-170px;
+                }
+
+                .more {
+                    margin-left: 970px;
+                    margin-top:-170px;
+                    display: inline-block;
+                }
+
+                .socials {
+                    padding-left: 2px; 
+                    display: inline-block;
+                }
+
+                .logo {
+                    float: right;
+                    padding-left: 40px;
+                    padding-top: 20px;
+                }
+
+                .social-links {
+                    display: inline-block;
+                }
+
+                .{
+                    cursor: pointer;
+                    color: #178ca4;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                footer::after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
