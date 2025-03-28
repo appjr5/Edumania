@@ -29,17 +29,16 @@
     ```sh
     pip install requirements.txt
 
-🌍 Tech Stack
-Frontend: React.js ⚛️, Tailwind CSS 🎨
 
-Backend: Node.js 🚀, Express.js ⚡
+## 🌍 Tech Stack
+**Frontend** : HTML, CSS ⚛️, Tailwind CSS 🎨
 
-Database: MySQL 🌱
+**Backend** : Python 🚀, Flask ⚡
 
-📜 License
-MIT License – Feel free to use, modify, and contribute!
+**Database** : MySQL 🌱
 
-🤝 Contributing
+
+## 🤝 Contributing
 We love contributions! To get started:
 
 1. Fork this repo
@@ -52,9 +51,9 @@ We love contributions! To get started:
 
 5. Open a pull request
 
-📞 Contact
+## 📞 Contact
 Have any questions?
 Reach out to us via appjr360@gmail.com
 
- Credits
+## Credits
 Built with ❤️ by App Jr.
